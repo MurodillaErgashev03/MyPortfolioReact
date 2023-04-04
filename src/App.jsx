@@ -1,5 +1,6 @@
 
 import './App.scss';
+import FileResume from './resume/rezume.pdf'
 
 function App() {
 
@@ -72,13 +73,13 @@ function App() {
                 <a className='hero__link' href="mailto:ergashevmurodilla27@gmail.com"><img className='w-[25px] h-[25px]' src="./images/email.svg" alt="" /></a>
               </div>
               <div className='download'>
-                <p className='download-text'>
+                <a href={FileResume} download className='download-text'>
                   Download my rezume
-                </p>
+                </a>
               </div>
 
             </div>
-            <img className='hero-big__img h-[200px] w-[200px] rounded-[50%]' src='./images/image.jpg' alt="" />
+            <img className='hero-big__img h-[280px] w-[300px] rounded-[50%]' src='./images/images_me.jpg' alt="" />
           </div>
         </div>
       </section>
